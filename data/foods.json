@@ -1,0 +1,14 @@
+{"_id":{"$oid":"5c206ac116dbe923fccfc3a9"},"name":"鱼香肉丝","img":"img/1545578466714.png","type":"热菜","price":12,"desc":"超好吃","__v":0}
+{"_id":{"$oid":"5c206ac316dbe923fccfc3ac"},"name":"鱼香肉丝","img":"img/1545578466714.png","type":"热菜","price":12,"desc":"超好吃","__v":0}
+{"_id":{"$oid":"5c206ac416dbe923fccfc3ad"},"name":"鱼香肉丝","img":"img/1545578466714.png","type":"热菜","price":12,"desc":"超好吃","__v":0}
+{"_id":{"$oid":"5c206ac616dbe923fccfc3af"},"name":"鱼香肉丝","img":"img/1545578466714.png","type":"热菜","price":12,"desc":"超好吃","__v":0}
+{"_id":{"$oid":"5c209a38fd27a38dae49bc4b"},"name":"麻婆豆腐","img":"img/1545578466714.png","type":"凉菜","price":12,"desc":"超好吃","__v":0}
+{"_id":{"$oid":"5c209a4bfd27a38dae49bc62"},"name":"麻婆豆腐","img":"img/1545578466714.png","type":"凉菜","price":12,"desc":"超好吃","__v":0}
+{"_id":{"$oid":"5c209a4efd27a38dae49bc67"},"name":"麻婆豆腐","img":"img/1545578466714.png","type":"凉菜","price":12,"desc":"超好吃","__v":0}
+{"_id":{"$oid":"5c209a52fd27a38dae49bc6d"},"name":"麻婆豆腐","img":"img/1545578466714.png","type":"凉菜","price":12,"desc":"超好吃","__v":0}
+{"_id":{"$oid":"5c209f24eea60929f467ef7a"},"name":"鱼香肉丝","img":"img/1545578466714.png","type":"热菜","price":12,"desc":"超好吃","__v":0}
+{"_id":{"$oid":"5c209f47eea60929f467ef7b"},"name":"鱼香肉丝","img":"img/1545578466714.png","type":"热菜","price":12,"desc":"超好吃","__v":0}
+{"_id":{"$oid":"5c20a6ad38fbb028702273af"},"name":"999","img":"img/1545643692446.png","type":"凉菜","price":999,"desc":"999","__v":0}
+{"_id":{"$oid":"5c20a819188cf82aa81cc48c"},"name":"888","img":"img/1545644056641.png","type":"热菜","price":888,"desc":"888","__v":0}
+{"_id":{"$oid":"5c20bf20688cc22cc030ba31"},"name":"868686","img":"img/1545649950587.png","type":"热菜","price":868686,"desc":"868686","__v":0}
+{"_id":{"$oid":"5c20c02e688cc22cc030ba32"},"name":"aaaaa","img":"img/1545650222895.png","type":"小吃","price":111111,"desc":"aaaaa","__v":0}

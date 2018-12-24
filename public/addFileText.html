@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+    <script src="./js/jquery.min.js"></script>
+</head>
+<body>
+    <!-- post形式上传图片文件，enctype、method：必须设置的变量 -->
+    <form enctype="multipart/form-data" method="post">
+        <input type="file" name='image' id="imagelist">
+    </form>
+    <!-- 绑定点击事件，触发ajax请求 -->
+    <img src="">
+    <button onclick="Req_ajax()"> 上传</button>
+    
+<script>
+    var OL_Action_Root = "http://127.0.0.1:6500";
+function Req_ajax(){
+
+    console.log($("#imagelist")[0].files);  //图片信息
+
+    //1.创建forData对象
+    var formData = new FormData();
+    //2.把图片信息储存在formData对象里，text必须用双引号
+    formData.append("test",$("#imagelist")[0].files[0]);
+    console.log(formData.get("test"));
+
+    $.ajax({
+        url: OL_Action_Root+'/api/upload/img',
+        type: 'POST',
+        data: formData,
+        cache: false,
+        contentType: false,
+        processData: false,
+        success: function(data){
+            if (data.err==0) {
+              $('img').attr('src','http://127.0.0.1:6500/'+data.path)
+            }
+         },
+        error: function(jqXHR, textStatus, errorThrown){
+            document.getElementById("status").innerHTML = "<span style='color:#EF0000'>连接不到服务器，请检查网络！</span>";
+        }
+    });
+}
+
+</script>
+</body>
+</html>
